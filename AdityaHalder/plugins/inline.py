@@ -46,7 +46,7 @@ Genius Userbot » {__version__} ✨...
 Click On Below 🌺 Buttons To
 Get Userbot Commands.
 
-🌷Powered By : [Aditya Server](https://t.me/AdityaServer).**""",
+**""",
             disable_web_page_preview=True
             ),
             reply_markup=InlineKeyboardMarkup(button),
