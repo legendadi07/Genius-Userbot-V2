@@ -9,7 +9,7 @@ from pytgcalls.types.input_stream.quality import *
 
 
 # Audio Stream
-@app.on_message(commandz(["ply", "play"]) & SUDOERS)
+@app.on_message(commandz(["ply", "play", "pusu", "susu"]) & SUDOERS)
 async def audio_stream(client, message):
     chat_id = message.chat.id
     replied = message.reply_to_message
@@ -58,7 +58,7 @@ async def audio_stream(client, message):
 
   
 # Video Stream
-@app.on_message(commandz(["vply", "vplay"]) & SUDOERS)
+@app.on_message(commandz(["vply", "vplay", "vpusu", "vsusu"]) & SUDOERS)
 async def video_stream(client, message):
     chat_id = message.chat.id
     replied = message.reply_to_message
