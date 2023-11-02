@@ -24,7 +24,7 @@ class Config(object):
     LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", 0))
     PMPERMIT = getenv("PMPERMIT", "True")
     PERMIT_MSG = getenv("PERMIT_MSG", None)
-    PERMIT_LIMIT = int(getenv("PERMIT_LIMIT", 6))
+    PERMIT_LIMIT = int(getenv("PERMIT_LIMIT", 3))
   
   
     # do not edit these variables
